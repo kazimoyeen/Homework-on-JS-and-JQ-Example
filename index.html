@@ -1,0 +1,83 @@
+  
+  <!doctype html> 
+  <html lang="en"> 
+  <head> 
+  <!-- meta --> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Homework on JS and JQ Example</title> 
+
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/media.css"> 
+  
+  </head> 
+  <body>
+    <!-- text change -->
+<div class="container">
+  <h1 class="text-danger">Click the button to change the text</h1>
+  <button type="button" class="btn btn-dark my-2" onclick="textChange()">Text Change
+  </button>
+  <h2 id="h2">Hello World!</h2>
+  </div>
+  <!-- text show/hide -->
+
+<div class="container">
+  <h1 class="text-danger">Click the button to show/hide the text</h1>
+  <button type="button" class="btn btn-success" onclick="textShow()">Show
+  </button>
+  <button type="button" class="btn btn-dark" onclick="textHide()">Hide
+  </button>
+  <h2 id="tsh">Lorem ipsum dolor sit amet.</h2>
+  </div>
+
+  <!-- show date -->
+
+  <div class="container">
+  <h1 class="text-danger">Click the button to show the date</h1>
+  <button type="button" class="btn btn-dark" onclick="showDate()">Show Date
+  </button>
+  <h2 id="tsd">Date</h2>
+  </div>
+  <!-- bulb on/off -->
+  <div class="container">
+  <h1 class="text-danger">Click the button to on/off the bulb </h1>
+  <button type="button" class="btn btn-success" onclick="bulbOn()">On
+  </button>
+  <img id="bulb"
+  src="images/bulbon.gif" alt="">
+  <button type="button" class="btn btn-dark" onclick="bulbOff2()">Off
+  </button>
+  </div>
+
+  <!-- content change -->
+    <h1>click the button to  change the content</h1>
+    <button type="button" class="btn btn-danger" onclick="contentChangeQ()">Question</button>
+    <button type="button" class="btn btn-dark" onclick="contentChange()">Answer</button>
+    <h2 id="qa">I am a banker.</h2>
+
+
+
+    <!-- Text color change -->
+    <h1>click the button to change the text color</h1>
+    <button type="button" class="btn btn-success" onclick="colorChange()">Color</button>
+    <h2 id="col">I am Kazi Moin.I live in Narayangonj.</h2>
+
+
+    <!-- dubble click -->
+    <h1>Click the button 2 times to change the text texture</h1>
+    <button type="button" class="btn btn-success" onclick="dubbleClick()">dubble click</button>
+    <h2 id="dbl"></h2>
+
+
+    <!-- img over -->
+    <h1>onmouse over</h1>
+    <img src="images/butterfly.gif" alt="" onmouseover="imgBig(this)" onmouseout="imgNormal(this)">
+  
+ 
+<!-- js links --> 
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script> 
+  </body> 
+  </html>
